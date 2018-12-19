@@ -12,7 +12,7 @@ body {
   /*background-image: url("../img/gllacy-index-fon.jpg");*/
   background-position: center 0px;
   background-repeat: no-repeat;  
-  border: 1px solid red;  
+    
 }
 
 .catalog {    
@@ -21,7 +21,7 @@ body {
   /*background-image: url("../img/%D1%84%D0%BE%D0%BD%201.png");*/  
   background-position: center 0px;
   background-repeat: no-repeat;  
-  border: 1px solid red;  
+    
 }
 
 
@@ -89,30 +89,30 @@ a {
   position: relative;  
   min-height: 113px;  
   z-index: 2;
-  outline: 1px solid green;  
+   
 }
 
 .main-header-catalog  {  
   min-height: 73px;
-  outline: 1px solid green;  
+    
 }
 
 .container {
   width: 1146px;
   margin: 0 auto;
-  outline: 2px solid blue;    
+     
 }
 
 .container2 {
   width: 1200px;
   margin: 0 auto;
-  outline: 2px solid blue;  
+    
 }
 
 
 .main-navigation {  
   color: #ffffff;
-  /*background-color: #849d8f;*/
+  
 }
 
 .main-navigation {    
@@ -123,7 +123,7 @@ a {
       flex-wrap: wrap;
   margin: 0;
   padding: 0;
-  outline: 1px solid black;
+  
   
 }
 
@@ -171,7 +171,7 @@ a {
   padding: 0;
   margin-top: 23px;
   list-style: none;
-  outline: 1px solid red;  
+    
 }
 
 .site-navigation li:nth-child(1) {
@@ -231,7 +231,7 @@ a {
   -webkit-box-shadow: 0px 20px 20px 0 rgba(0, 0, 0, 0.4);  
           box-shadow: 0px 20px 20px 0 rgba(0, 0, 0, 0.4);
   background-color: #f8f7f4;
-  outline: 1px solid red;  
+    
 }
 
 
@@ -281,7 +281,7 @@ a {
   margin-right: 7px;
   margin-top: 22px;
   margin-bottom: 0px;  
-  outline: 1px solid red;  
+    
 }
 
 .site-search a  {
@@ -389,7 +389,7 @@ input:focus {
   padding-left: 16px;
   border-radius: 25px;  
   background-color: #9db1a5;
-  outline: 1px solid red;  
+   
 }
 
 .site-input .entrance {
@@ -480,7 +480,7 @@ input:focus {
   margin: 0px;
   padding: 0px;
   margin-top: -7px;  
-  outline: 1px solid red;  
+  
 }
 
 .button-restore .button {
@@ -513,7 +513,7 @@ input:focus {
   min-height: 44px;  
   margin: 0px;
   padding-left: 1px;
-  outline: 1px solid black;  
+   
 }
 
 .login-password-info .restore {
@@ -527,7 +527,7 @@ input:focus {
   background: none;
   text-align: left;  
   text-decoration: underline;  
-  outline: 1px solid red;  
+   
 }
 
 .login-password-info .registration {
@@ -576,7 +576,7 @@ input:focus {
   border-radius: 25px;  
   background-color: #9db1a5;
   color: #ffffff;
-  outline: 1px solid red;  
+    
 }
 
 .basket {
@@ -615,7 +615,7 @@ input:focus {
   padding: 7px 15px 5px 14px;
   border-radius: 25px;  
   color: #323232;
-  outline: 1px solid red;  
+   
 }
 
 .your-order {
@@ -645,7 +645,7 @@ input:focus {
   font-weight: normal;  
   line-height: 16px;
   color: #323232;
-  outline: 1px solid blue;  
+   
 }
 
 .your-order .tr1 {    
@@ -654,7 +654,7 @@ input:focus {
   padding-top: 0px;
   padding-bottom: 10px;  
   vertical-align: middle;
-  outline: 1px solid red;    
+     
 }
 
  .tr2 {
@@ -667,32 +667,31 @@ input:focus {
 
 .del {
   width: 17px;
-  outline: 1px solid red;  
+    
 }
 
 .small-img {
   width: 33px;
   padding: 0px;
   margin: 0px;  
-  outline: 1px solid red;  
+   
 }
 
 .order-name {
-  width: 185px;
-  
-  outline: 1px solid red;  
+  width: 185px; 
+ 
 }
 
 
 
 .kg {
   width: 93px; 
-  outline: 1px solid red;  
+    
 }
 
 .castom {
   width: 50px; 
-  outline: 1px solid red;  
+    
 }
 
 
@@ -755,7 +754,7 @@ input:focus {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 1146px;  
-  outline: 1px solid red;
+  
   margin-bottom: 0px;
   padding-bottom: 0px;
   margin-bottom: 2px;  
@@ -785,7 +784,7 @@ input:focus {
   font-weight: normal;
   line-height: 1.14;
   color: #ffffff;
-  outline: 1px solid red;  
+   
 }
 
 .breadcrumbs a:after {
@@ -798,7 +797,7 @@ input:focus {
   line-height: 16px;  
   width: 11px;
   height: 11px;
-  outline: 1px solid red;  
+    
 }
 
 .w-contact {
@@ -833,7 +832,7 @@ input:focus {
   color: #ffffff;
   padding: 0px;
   margin: 0px;    
-  outline: 1px solid black;  
+    
 }
 
 .filters {
@@ -850,12 +849,12 @@ input:focus {
       -ms-flex-pack: justify;
           justify-content: space-between;  
   width: 860px;
-  outline: 1px solid red;  
+   
 }
 
 .string:first-child {
   margin-bottom: 4px;
-  outline: 1px solid blue;  
+    
 }
 
 fieldset {
@@ -874,7 +873,7 @@ fieldset {
   margin: 0px;
   padding: 0px;  
   margin-top: 26px;    
-  outline: 1px solid red;  
+    
 }
 
 .sort-legend {
@@ -886,7 +885,7 @@ fieldset {
   margin-bottom: 6px;  
   padding-left: 16px;  
   color: #ffffff;
-  outline: 1px solid red;  
+   
 }
 
 .sort-button {
@@ -905,7 +904,7 @@ fieldset {
   padding-bottom: 9px;
   padding-left: 16px;
   padding-right: 10px;  
-  outline: 1px solid red;  
+   
 }
 
 .sort-batton img {
@@ -945,7 +944,7 @@ fieldset {
   margin: 0px;  
   color: #ffffff;
   cursor: pointer;
-  outline: 1px solid red;  
+    
 }
 
 .price-controls span{
@@ -1075,7 +1074,7 @@ sort-legend {
   margin: 0px;
   padding: 0px;    
   padding-left: 32px;
-  outline: 1px solid red;  
+    
 }
 
 .filter-fat:before {
@@ -1105,7 +1104,7 @@ sort-legend {
   min-height: 37px;  
   padding: 0px;
   margin: 0px;
-  outline: 1px solid red;  
+   
 }
 
 
@@ -1113,7 +1112,7 @@ sort-legend {
   display: block;  
   margin-left: 16px;
   margin-bottom: 6px;  
-  outline: 1px solid red;  
+    
 }
 
 .sweet-supplements {
@@ -1138,7 +1137,7 @@ sort-legend {
   margin-left: 0px;  
   background-color: #aabcb2;  
   border-radius: 35px;
-  outline: 1px solid red;  
+    
 }
 
 .filter-additives {
@@ -1206,7 +1205,7 @@ sort-legend {
   padding: 0px;  
   margin-left: auto;
   margin-right: auto;  
-  outline: 6px solid red;  
+    
 }
 
 .slider1,
@@ -1229,7 +1228,7 @@ sort-legend {
   margin-left: auto;
   margin-right: auto;  
   margin-top: -113px;  
-  outline: 5px solid black;    
+      
   text-align: center;
 }
 
@@ -1330,8 +1329,7 @@ sort-legend {
           justify-content: space-between;
   list-style: none;
   padding: 0;
-  margin: 0;
-  outline: 1px solid red;
+  margin: 0;  
   margin: 0 auto;
   margin-top: -237px;  
   margin-bottom: 37px;    
@@ -1395,7 +1393,7 @@ sort-legend {
 
 .assortment {
   margin-bottom: -41px;
-  outline: 1px solid red;  
+    
 }
 
 .assortment-catalog {
@@ -1501,7 +1499,7 @@ sort-legend {
   bottom: -38px;  
   font-size: 45px;
   line-height: 45px;
-  outline: 1px solid black;  
+    
 }
 
 .assortment-imgprice span {
@@ -1524,12 +1522,12 @@ sort-legend {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 38px;  
-  outline: 1px solid blue;    
+     
 }
 
 .assortment-catalog .assortment-title  {  
   margin-bottom: 77px;  
-  outline: 1px solid blue;  
+    
 }
 
 .quick-view  {
@@ -1602,7 +1600,7 @@ sort-legend {
   font-weight: normal;
   line-height: 1.38;
   color: #323232;
-  outline: 1px solid red; 
+   
 }
 
 .advantage li {
@@ -1612,7 +1610,7 @@ sort-legend {
   width: 531px;
   margin-bottom: 24px;
   padding-left: 55px;  
-  outline: 1px solid black;  
+    
 }
 
 .advantage li:nth-child(2n) {
@@ -1673,7 +1671,7 @@ sort-legend {
   border-radius: 15px;    
   background:  url(../img/strawberry-background.jpg) no-repeat center;
   background-size: cover;   
-  outline: 1px solid red;  
+    
 } 
 
 .new-in-blog p  {
@@ -1743,7 +1741,7 @@ sort-legend {
   margin-top: auto;
   padding: 0px;  
   vertical-align: middle;  
-  outline: 1px solid red;  
+   
 }
 
 .subscription-form input {  
@@ -1822,7 +1820,7 @@ iframe {
   margin: 0px;  
   margin: 28px 129px 0px 25px;
   color: #323232;
-  outline: 1px solid red;  
+    
 }
 
 .street {
@@ -1835,7 +1833,7 @@ iframe {
   margin-left: 25px;
   margin-right: 50px;    
   color: #323232;
-  outline: 1px solid red;  
+    
 }
 
 .telefon-zakaz {
@@ -1850,7 +1848,7 @@ iframe {
   margin-right: 100px;
   margin-bottom: 0px;  
   color: #323232;
-  outline: 1px solid red;  
+    
 }
 
 .telefon-namber {
@@ -1910,7 +1908,7 @@ iframe {
   margin-right: 4px;
   margin-bottom: 30px;  
   list-style: none;
-  outline: 1px solid red;  
+    
 }
 
 .pagination-list:before {
@@ -1918,6 +1916,7 @@ iframe {
   width: 10px;
   height: 10px;
   background-color: transparent;
+  border: none;  
   -webkit-box-shadow: -2px 2px 0px #ffffff;
           box-shadow: -2px 2px 0px #ffffff;
   -webkit-transform: rotate(45deg);
@@ -1953,12 +1952,29 @@ iframe {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;  
   width: 26px;
-  height: 25px;
-  border:1px solid #ffffff;  
+  height: 25px;    
   padding-top: 3px;
   padding-bottom: 13px;  
   padding-left: 8px;
   padding-right: 11px;  
+}
+
+.pagination-item-current a {
+  display: block;  
+  font-size: 16px;
+  line-height: 18px;
+  margin-left: 3px;  
+  color: #323232;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;  
+  width: 26px;
+  height: 25px;
+  border-radius: 50%;  
+  padding-top: 3px;
+  padding-bottom: 13px;  
+  padding-left: 8px;
+  padding-right: 11px;    
+  background-color: #ffffff;  
 }
 
 .pagination-item a:hover {
@@ -1981,9 +1997,7 @@ iframe {
     
 }
 
-.main-footer {
-  /*background-color: #849d8f;*/  
-}
+
 
 .footer-c {
   display: -webkit-box;
@@ -2010,7 +2024,7 @@ iframe {
   list-style: none;  
   padding: 0px;
   margin: 0px;
-  outline: 1px solid black;  
+  
 }
 
 .social-button  {
@@ -2071,7 +2085,7 @@ iframe {
   padding: 0px;
   margin-top: 33px;
   margin-left: 0px;  
-  outline: 1px solid red;  
+   
 }
 
 .column-info1,
@@ -2096,7 +2110,7 @@ iframe {
   padding-left: 46px;    
   margin-bottom: 4px;  
   min-height: 13px;
-  outline: 1px solid blue;    
+      
 }
 
 .column-info2 a {
@@ -2126,25 +2140,32 @@ iframe {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column;  
+          flex-direction: column;    
   min-width: 220px;
   height: 50px;
   margin-top: 0px;  
-  outline: 1px solid red; 
+  padding-top: 18px;
+  
 }
 
 .logo-htmlacademy-small {
   display: block;  
   width: 108px;
-  height: 39px;    
+  height: 39px;
+  margin: 0px;
+  padding: 0px;  
   margin-left: auto;
-  margin-right: 80px;
-  margin-top: 18px;  
-  margin-bottom: 4px;    
-  outline: 1px solid red;  
+  margin-right: 80px;    
+     
+}
+
+.logo-htmlacademy-small img {
+  width: 108px;
+  height: 39px;  
 }
 
 .maid {
+    
  display: inline-block;
  min-width: 190px;
  min-height: 12px;   
@@ -2154,9 +2175,9 @@ iframe {
  color: #fefefe;
  margin-left: auto;
  margin-right: 0px;
- margin-top: 0px;
+ margin-top: 0x;
  padding-top: 0px;   
- outline: 1px solid red;   
+    
 }
 
 .maid a {
