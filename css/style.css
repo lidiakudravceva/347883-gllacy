@@ -8,7 +8,7 @@ body {
   line-height: 22px;
   font-weight: 700;
   color: #ffffff;   
-  background-color: #849d8f;
+  /*background-color: #849d8f;*/
   /*background-image: url("../img/gllacy-index-fon.jpg");*/
   background-position: center 0px;
   background-repeat: no-repeat;  
@@ -56,18 +56,12 @@ a:active {
 }
 
 .button {
-  font-family: "Roboto", Arial, sans-serif;
-  font-size: 18px;
-  line-height: 24px;    
+  font-family: "Roboto", Arial, sans-serif;      
   text-align: center;
   color: #ffffff;
-  vertical-align: middle;  
-  -webkit-box-shadow: 0px 2px 2px 0 rgba(172, 16, 0, 0.64);  
-          box-shadow: 0px 2px 2px 0 rgba(172, 16, 0, 0.64);
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#e74a35), to(#f26843));
-  background-image: -webkit-linear-gradient(bottom, #e74a35, #f26843);
-  background-image: -o-linear-gradient(bottom, #e74a35, #f26843);
-  background-image: linear-gradient(to top, #e74a35, #f26843);
+  vertical-align: middle;
+  box-shadow: 0px 2px 2px 0 rgba(172, 16, 0, 0.64);
+  background-image: linear-gradient(to top, #e74a35, #f26843); 
   border-radius: 35px;
 }
 
@@ -78,7 +72,7 @@ a:active {
   background-image: -webkit-gradient(linear, left bottom, left top, from(#e74a35), to(#f26843)), -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.2)), to(rgba(255, 255, 255, 0.2)));
   background-image: -webkit-linear-gradient(bottom, #e74a35, #f26843), -webkit-linear-gradient(top, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
   background-image: -o-linear-gradient(bottom, #e74a35, #f26843), -o-linear-gradient(top, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
-  background-image: linear-gradient(to top, #e74a35, #f26843), linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+  background-image: linear-gradient(to top, #e74a35, #f26843), linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));  
 }
 
 .button:active  {
@@ -87,7 +81,7 @@ a:active {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#e74a35), to(#f26843)), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.07)), to(rgba(0, 0, 0, 0.07)));
   background-image: -webkit-linear-gradient(top, #e74a35, #f26843), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.07));
   background-image: -o-linear-gradient(top, #e74a35, #f26843), -o-linear-gradient(top, rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.07));
-  background-image: linear-gradient(to bottom, #e74a35, #f26843), linear-gradient(to bottom, rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.07));  
+  background-image: linear-gradient(to bottom, #e74a35, #f26843), linear-gradient(to bottom, rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.07));    
 }
 
 .main-header {
@@ -420,6 +414,7 @@ input:focus {
   position: absolute;
   bottom: -196px;
   right: 0px;
+  z-index: 13;  
   -webkit-box-sizing: border-box;
           box-sizing: border-box;  
   width: 277px;
@@ -597,9 +592,8 @@ input:focus {
   list-style: none;
   font-size: 14px;
   line-height: 16px;  
-  width: 117px;
-  opacity: 0.2;
-  background-color: #ffffff;  
+  width: 117px;  
+  background-color: rgba(255, 255, 255, 0.2);  
   margin: 0;
   padding: 0;
   margin-top: 21px;  
@@ -612,6 +606,7 @@ input:focus {
 
 .your-order {
   position: absolute;
+  z-index: 14;  
   display: none;  
   top: 60px;
   right: 0px;
@@ -622,15 +617,14 @@ input:focus {
   width: 540px;
   height: 242px;
   border-radius: 5px;
-  background: #f8f7f4 url("../img/f-zakaz.jpg");  
+  background: #f8f7f4 /*url("../img/f-zakaz.jpg")*/;  
 }
 
 
 
 .your-order table {
   border-collapse: collapse;    
-  width: 510px;
-  border: 1px solid black; 
+  width: 510px;   
   margin: 0px;
   padding: 0px;    
   font-size: 13px;
@@ -655,8 +649,7 @@ input:focus {
   border-bottom: 1px solid #cacac7;   
 }
 
-td {
- outline: 1px solid red;
+td { 
  padding-top: 10px;
  padding-bottom: 17px;   
 }
@@ -683,8 +676,7 @@ td {
   background-color: none;
   box-shadow: none;
   border: none;  
-  background-image: url("../img/svg-gllacy/svg-gllacy/cross-small.svg") no-repeat center;
-  outline: 1px solid red;  
+  background-image: url("../img/svg-gllacy/svg-gllacy/cross-small.svg") no-repeat center;    
 }
 
 .small-img {
@@ -727,20 +719,17 @@ td {
   text-align: right;  
 }
 
-.registration {
+.your-order .registration {
   position: absolute;
   bottom: 10px;
-  right: 14px;  
-  width: 171px;
-  height: 46px;
-  color: #ffffff;  
-  background: none;  
-  /*-webkit-box-shadow: 0px 1px 2px 0 var(--#ac1000);
-          box-shadow: 0px 1px 2px 0 var(--#ac1000);
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#e74a35), to(var(--#f26843)));
-  background-image: -webkit-linear-gradient(bottom, #e74a35, var(--#f26843));
-  background-image: -o-linear-gradient(bottom, #e74a35, var(--#f26843));
-  background-image: linear-gradient(to top, #e74a35, var(--#f26843));*/
+  right: 14px;
+  box-sizing: border-box;  
+  width: 170px;
+  height: 44px;
+  border-radius: 35px;  
+  color: #ffffff;
+  box-shadow: 0px 1px 2px 0 #ac1000;
+  background-image: linear-gradient(to top, #e74a35, #f26843);  
   margin-bottom: 10px;
   margin-top: auto;    
 }
@@ -1099,7 +1088,8 @@ sort-legend {
   left: 0px;    
   width: 22px;
   height: 22px;
-  content: "";  
+  content: "";
+  opacity: 0.8;    
   background: url("../img/svg-gllacy/svg-gllacy/radio-off.svg") no-repeat center;
   background-size: cover;  
 }
@@ -1110,9 +1100,14 @@ sort-legend {
   left: 0px;    
   width: 22px;
   height: 22px;
-  content: "";  
+  content: "";
+  opacity: 0.8;  
   background: url("../img/svg-gllacy/svg-gllacy/radio-on.svg") no-repeat center;
   background-size: cover;    
+}
+
+.filter-fat:before:hover {
+  opacity: 1;  
 }
 
 .string fieldset {
@@ -1206,7 +1201,16 @@ sort-legend {
   border-radius: 35px;  
 }
 
+.filter-button:hover {
+    background: #ffffff;
+    color: #323232;
+}
 
+.filter-button:active {
+  box-shadow: inset 0px 2px 1px 0 #696969;
+  background-color: #ededed;
+  color: #323232; 
+}
 
 .main-wrapper {
   
@@ -1286,6 +1290,7 @@ sort-legend {
 .slide-button:hover {
   background: linear-gradient(to bottom, #f58669 0%, #ec6f5e 100%);
   box-shadow: 0 2px 2px rgba(172, 16, 0, 1);
+  color: #ffffff;  
 }
 
 .button:active {
@@ -1313,6 +1318,11 @@ sort-legend {
   cursor: pointer;
 }
 
+.slider-controls label:focus,
+.slider-controls label:hover {
+  background-color: #b2c1b7;  
+}
+
 #product-1:checked ~ .main-wrapper {
   background-color:  #849d8f;
   background-image: url("../img/slider-item1.png");
@@ -1328,10 +1338,7 @@ sort-legend {
   background-image: url("../img/slider-item3.png");
 }
 
- #product-2:checked + body  {
-  
-  background-color: red;
-}
+
 
 
 #product-1:checked ~ .main-wrapper #slide1,
@@ -1345,15 +1352,6 @@ sort-legend {
 #product-3:checked ~ .main-wrapper label[for="product-3"] {
   background-color: #ffffff;
 }
-
-
-
-
-
-
-
-
-
 
 .stock  {
   position: relative;
@@ -1420,13 +1418,25 @@ sort-legend {
   -ms-flex-item-align: end;
       align-self: flex-end;  
   margin-top: auto;  
-  margin-bottom: 27px;     
+  margin-bottom: 25px;     
   margin-right: 23px;
   margin-left: auto;  
   padding: 10px 20px 10px 20px;    
   font-size: 18px;
   line-height: 24px;  
   text-align: center;  
+}
+
+.stock-button:hover {
+  color: #ffffff;
+  box-shadow: 0px 1px 2px 0 #ac1000;
+  background-image: linear-gradient(to top, #e74a35, #f26843), linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));  
+}
+
+.stock-button:active {
+  color: #ffffff;
+  box-shadow: inset 0px 2px 2px 0 #942718;
+  background-image: linear-gradient(to bottom, #e74a35, #f26843), linear-gradient(to bottom, rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.07));  
 }
 
 .assortment {
@@ -1598,7 +1608,12 @@ sort-legend {
 
 .assortment li:hover .quick-view,
 .assortment li:focus .quick-view  {
-  display: block;  
+  display: block;
+  color: #ffffff;  
+}
+
+.quick-view:active {
+    
 }
 
 
@@ -1740,6 +1755,11 @@ sort-legend {
   line-height: 30px;
   color: #323232;
   text-decoration: underline;    
+}
+
+.ten:hover,
+.ten:active  {
+  color: #e84d37;  
 }
 
 .subscription  {
@@ -1945,13 +1965,11 @@ iframe {
   width: 190px;
   min-height: 26px;  
   padding: 0;
-  margin: 0;
-    
+  margin: 0;    
   margin-left: auto;
   margin-right: 4px;
   margin-bottom: 30px;  
-  list-style: none;
-  outline: 1px solid black;  
+  list-style: none;   
 }
 
 .pagination-list:before {
