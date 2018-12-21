@@ -81,28 +81,26 @@
             <section class="your-order">
             <table>
               <tr class="tr1">
-                  <td class="del"><span class="visually-hidden">Удалить</span></td>
-                <td class="small-img"><img src="img/1-small.jpg" width="33" height="33"
-                alt="Пломбир с апельсиновым джемом">
+                <td class="del"><span class="visually-hidden">Удалить</span><batton class="your-order-del" type="button"></batton></td>
+                <td class="small-img"><img src="img/1-small.jpg" width="33" height="33" alt="Пломбир с апельсиновым джемом">
                 </td>
                 <td class="order-name">Пломбир с апельсиновым джемом</td>
-                <td class="kg">1,5кгх200руб</td>
-                <td class="castom">300руб.</td>
+                  <td class="kollichestvo">1,5 кг х<span> 200 руб.</span></td>
+                <td class="castom">300 руб.</td>
               </tr>
               <tr class="tr2">
-                  <td class="del"><span class="visually-hidden">Удалить</span></td>
-                <td><img src="img/3-small.jpg" width="33" height="33"
-                alt="Клубничный пломбир с присыпкой из белого шоколада">
+                <td class="del"><span class="visually-hidden">Удалить</span><batton class="your-order-del" type="button"></batton></td>
+                <td class="small-img"><img src="img/3-small.jpg" width="33" height="33" alt="Клубничный пломбир с присыпкой из белого шоколада">
                 </td>
                 <td class="order-name">Клубничный пломбир с присыпкой из белого шоколада
                 </td>
-                <td class="kg">1,5кгх300руб</td>
-                <td class="castom">450руб.</td>
+                  <td class="kollichestvo">1,5 кг х<span> 300 руб.</span></td>
+                <td class="castom">450 руб.</td>
               </tr>    
             </table>
                 
-              <p class="summa">Итого: 750руб.</p>
-              <button class="button registration" type="button">Оформить заказ</button>
+              <p class="summa">Итого: 750 руб.</p>
+              <button class=" registration" type="button">Оформить заказ</button>
                 
           </section>      
           </div>    
@@ -129,8 +127,11 @@
           <form class="filter" method="get" action="https://echo.htmlacademy.ru">
           <div class="string">    
           <div class="sort">
-          <p class="sort-legend">Сортировка:</p>
-          <a class="filter-input sort-button" href="#">по популярности <img src="img/svg-gllacy/svg-gllacy/select-arrow.svg" width="11" height="14"></a>
+          <p class="sort-legend">Сортировка:</p>              
+            <select class="filter-input sort-button" name="sort">
+              <option value="popular">по популярности</option>
+              <option value="castom">по цене</option>  
+            </select>     
           </div>              
           <div class="filter-price">
             <div class="price-controls">
@@ -206,7 +207,7 @@
               <div class="assortment-imgprice">                
                 <img class="assortment-img" src="img/1.jpg" alt="цитрусовое
                 с апельсиновой начинкой" width="267" height="267">               
-                <p>310₽<span>/кг</span></p>
+                  <p>310<span class="r">₽</span><span class="kg">/кг</span></p>
               </div>      
               <a class="assortment-title" href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
               <a class="button quick-view" href="#">Быстрый просмотр</a>
@@ -215,7 +216,7 @@
               <div class="assortment-imgprice">
                 <img class="assortment-img" src="img/2.jpg" alt="Сливочно-кофейное с кусочками
                 шоколада" width="267" height="267">
-                <p>380₽<span>/кг</span></p>
+                  <p>380<span class="r">₽</span><span class="kg">/кг</span></p>
               </div>              
               <a class="assortment-title" href="#">Сливочно-кофейное с кусочками шоколада</a>
               <a class="button quick-view" href="#">Быстрый просмотр</a>
@@ -224,7 +225,7 @@
                <div class="assortment-imgprice">
                  <img class="assortment-img" src="img/3.jpg" alt="Сливочно-клубничное с присыпкой
                  из белого шоколада" width="267" height="267">
-                 <p>355₽<span>/кг</span></p>
+                   <p>355<span class="r">₽</span><span class="kg">/кг</span></p>
                </div>               
                <a class="assortment-title" href="#">Сливочно-клубничное с присыпкой из белого шоколада</a>
                <a class="button quick-view" href="#">Быстрый просмотр</a>
@@ -233,7 +234,7 @@
                <div class="assortment-imgprice">
                  <img class="assortment-img" src="img/4.jpg" alt="Сливочное крем-брюле с карамельной
                  подливкой" width="267" height="267">
-                 <p>415₽<span>/кг</span></p>  
+                   <p>415<span class="r">₽</span><span class="kg">/кг</span></p>  
               </div>               
                <a class="assortment-title" href="#">Сливочное крем-брюле с карамельной подливкой</a>
                <a class="button quick-view" href="#">Быстрый просмотр</a>
@@ -242,7 +243,7 @@
                 <div class="assortment-imgprice">
                   <img class="assortment-img" src="img/5.jpg" alt="Сливочное с брусничным джемом"
                   width="267" height="267">
-                  <p>325₽<span>/кг</span></p>  
+                    <p>325<span class="r">₽</span><span class="kg">/кг</span></p>  
                 </div>                
                 <a class="assortment-title" href="#">Сливочное с брусничным джемом</a>
                 <a class="button quick-view" href="#">Быстрый просмотр</a>
@@ -251,7 +252,7 @@
                 <div class="assortment-imgprice">
                   <img class="assortment-img" src="img/6.jpg" alt="Сливочно-черничное с цельными
                   ягодами черники" width="267" height="267">
-                  <p>410₽<span>/кг</span></p>  
+                    <p>410<span class="r">₽</span><span class="kg">/кг</span></p>  
                 </div>                
                 <a class="assortment-title" href="#">Сливочно-черничное с цельными ягодами черники</a>
                 <a class="button quick-view" href="#">Быстрый просмотр</a>
@@ -260,7 +261,7 @@
                 <div class="assortment-imgprice">
                   <img class="assortment-img" src="img/7.jpg" alt="Сливочно-лимонное с карамельной
                   присыпкой" width="267" height="267">
-                  <p>375₽<span>/кг</span></p>  
+                    <p>375<span class="r">₽</span><span class="kg">/кг</span></p>  
                 </div>                
                 <a class="assortment-title" href="#">Сливочно-лимонное с карамельной присыпкой</a>
                 <a class="button quick-view" href="#">Быстрый просмотр</a>
@@ -269,7 +270,7 @@
                 <div class="assortment-imgprice">
                   <img class="assortment-img" src="img/8.jpg" alt="Сливочное с шоколадной стружкой"
                   width="267" height="267">
-                  <p>320₽<span>/кг</span></p>  
+                    <p>320<span class="r">₽</span><span class="kg">/кг</span></p>  
                 </div>                
                 <a class="assortment-title" href="#">Сливочное с шоколадной стружкой</a>
                 <a class="button quick-view" href="#">Быстрый просмотр</a>
@@ -278,7 +279,7 @@
                 <div class="assortment-imgprice">
                   <img class="assortment-img" src="img/9.jpg" alt="Сливочно-ванильное с кусочками
                   шоколада" width="267" height="267">
-                  <p>440₽<span>/кг</span></p>  
+                    <p>440<span class="r">₽</span><span class="kg">/кг</span></p>  
                 </div>                
                 <a class="assortment-title" href="#">Сливочно-ванильное с кусочками шоколада</a>
                 <a class="button quick-view" href="#">Быстрый просмотр</a>
@@ -287,7 +288,7 @@
                 <div class="assortment-imgprice">
                   <img class="assortment-img" src="img/10.jpg" alt="Сливочное с ментоловым сиропом"
                   width="267" height="267">
-                  <p>435₽<span>/кг</span></p>  
+                    <p>435<span class="r">₽</span><span class="kg">/кг</span></p>  
                 </div>                
                 <a class="assortment-title" href="#">Сливочное с ментоловым сиропом</a>
                 <a class="button quick-view" href="#">Быстрый просмотр</a>
@@ -296,7 +297,7 @@
                 <div class="assortment-imgprice">
                   <img class="assortment-img" src="img/11.jpg" alt="Сливочное с кусочками черного
                   шоколада" width="267" height="267">
-                  <p>355₽<span>/кг</span></p>  
+                    <p>355<span class="r">₽</span><span class="kg">/кг</span></p>  
                 </div>                
                 <a class="assortment-title" href="#">Сливочное с кусочками черного шоколада</a>
                 <a class="button quick-view" href="#">Быстрый просмотр</a>
@@ -305,7 +306,7 @@
                 <div class="assortment-imgprice">
                   <img class="assortment-img" src="img/12.jpg" alt="Сливочное с мятным сиропом"
                   width="267" height="267">
-                  <p>420₽<span>/кг</span></p>  
+                    <p>420<span class="r">₽</span><span class="kg">/кг</span></p>  
                 </div>                
                 <a class="assortment-title" href="#">Сливочное с мятным сиропом</a>
                 <a class="button quick-view" href="#">Быстрый просмотр</a>
@@ -327,10 +328,18 @@
         <footer class="main-footer">
           <div class="container footer-c">                 
           <ul class="footer-social">
-            <li><a class="social-button t" href="#"><span class="visually-hidden">Твиттер</span></a></li>    
-            <li><a class="social-button i" href="#"><span class="visually-hidden">Инстаграм</span></a></li>
-            <li><a class="social-button f" href="#"><span class="visually-hidden">Фейсбук</span></a></li>
-            <li><a class="social-button b" href="#"><span class="visually-hidden">Вконтакте</span></a></li>
+            <li><a class="social-button t" href="#"><span class="visually-hidden">Твиттер</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="#FFF" d="M16 0C7.164 0 0 7.164 0 16c0 8.837 7.164 16 16 16 8.837 0 16-7.163 16-16 0-8.836-7.163-16-16-16zm7.944 12.809c-.251 6.516-3.463 10.832-10.992 10.702h-.486c-.447 0-4.543-.443-5.344-1.823 2.479.19 4.247-.406 5.12-1.136-1.048-.289-2.923-.461-3.251-2.848.384.104.618.221 1.299.113-1.307-.824-2.758-1.519-2.679-3.643.311.317 1.164.518 1.46.457-.768-.233-2.149-3.244-.974-4.781 1.984 1.79 4.075 3.482 7.804 3.643.227-2.214 1.24-3.699 3.168-4.325 1.84-.479 3.255.26 3.901 1.138.737-.224 1.453-.466 2.193-.685-.004.833-.569 1.463-.935 1.709.747.165 1.423-.475 1.423-.475-.184.963-1.094 1.725-1.707 1.954z"/></svg>         
+            </a></li>    
+            <li><a class="social-button i" href="#"><span class="visually-hidden">Инстаграм</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><g fill="#FFF"><path d="M20.916 16a4.938 4.938 0 1 1-9.877 0c0-.394.051-.773.138-1.14h-.897v6.838h11.396V14.86h-.897c.086.367.137.746.137 1.14z"/><path d="M15.978 18.659c1.466 0 2.659-1.193 2.659-2.659s-1.193-2.659-2.659-2.659c-1.466 0-2.659 1.193-2.659 2.659s1.192 2.659 2.659 2.659zM18.637 10.302h3.039v3.039h-3.039z"/><path d="M16 0C7.164 0 0 7.164 0 16c0 8.837 7.164 16 16 16 8.837 0 16-7.163 16-16 0-8.836-7.163-16-16-16zm7.955 21.698a2.285 2.285 0 0 1-2.279 2.279H10.279A2.285 2.285 0 0 1 8 21.698V10.302a2.286 2.286 0 0 1 2.279-2.279h11.396a2.286 2.286 0 0 1 2.279 2.279v11.396z"/></g></svg>    
+            </a></li>
+            <li><a class="social-button f" href="#"><span class="visually-hidden">Фейсбук</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="#FFF" d="M16 0C7.164 0 0 7.163 0 16s7.164 16 16 16c8.837 0 16-7.164 16-16S24.837 0 16 0zm4.062 9.455h-3.021v3.444h3.021v3.445h-3.021v8.61H14.02v-8.61H11v-3.445h3.021V9.455c0-1.902 1.353-3.445 3.021-3.445h3.021v3.445z"/></svg>    
+            </a></li>
+            <li><a class="social-button b" href="#"><span class="visually-hidden">Вконтакте</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><g fill="#FFF"><path d="M16.637 14.495c.402-.019.719-.082.951-.188.326-.145.54-.33.641-.559.101-.229.15-.496.15-.797 0-.232-.058-.465-.174-.697-.116-.232-.322-.405-.617-.517-.264-.1-.592-.155-.984-.165a76.242 76.242 0 0 0-1.652-.014h-.339v2.965h.565c.571 0 1.057-.009 1.459-.028zM18.118 17.084c-.282-.081-.672-.125-1.166-.132a127.97 127.97 0 0 0-1.55-.009h-.79v3.493h.264c1.014 0 1.74-.003 2.18-.009a3.2 3.2 0 0 0 1.212-.245c.377-.157.633-.364.774-.625s.214-.562.214-.9c0-.446-.088-.788-.261-1.03-.17-.241-.464-.423-.877-.543z"/><path d="M16 0C7.164 0 0 7.164 0 16c0 8.837 7.164 16 16 16 8.837 0 16-7.163 16-16 0-8.836-7.163-16-16-16zm6.602 20.531a3.73 3.73 0 0 1-1.124 1.327c-.552.415-1.161.71-1.823.886s-1.501.264-2.519.264h-6.121V8.987h5.443c1.13 0 1.957.038 2.48.113a5.126 5.126 0 0 1 1.561.5c.533.27.929.632 1.189 1.087.26.455.392.975.392 1.558 0 .678-.179 1.278-.536 1.795-.358.518-.863.92-1.517 1.208v.075c.917.182 1.642.559 2.179 1.13.537.571.807 1.325.807 2.261 0 .678-.138 1.283-.411 1.817z"/></g></svg>    
+            </a></li>
           </ul>
           <div class="footer-info">  
             <ul class="column-info1">              
