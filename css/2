@@ -134,8 +134,7 @@ a:active {
 .html-academy {
   color: #ffffff;
   text-decoration: underline;  
-  -webkit-text-decoration-color: rgba(255, 255, 255, 0.3);  
-          text-decoration-color: rgba(255, 255, 255, 0.3);     
+  text-decoration-color: rgba(255, 255, 255, 0.3);     
 }
 
 .site-navigation a:hover,
@@ -144,8 +143,7 @@ a:active {
 .html-academy:hover {
   color: #ffbc9e;
   text-decoration: underline;  
-  -webkit-text-decoration-color: rgba(255, 188, 158, 0.3);  
-          text-decoration-color: rgba(255, 188, 158, 0.3);     
+  text-decoration-color: rgba(255, 188, 158, 0.3);     
 }
 
 .main-header-logo  {
@@ -201,9 +199,9 @@ a:active {
   background-color: #d07058;
   padding: 0px;
   margin: 0px;  
-  padding: 6px 13px 8px 14px;
+  padding: 6px 13px 7px 14px;
   border-radius: 30px;
-  text-decoration: none;  
+  text-decoration: none;    
 }
 
 
@@ -423,8 +421,9 @@ input:focus {
   border-radius: 5.1px;
   -webkit-box-shadow: 0px 20px 20px 0 rgba(0, 0, 0, 0.4);
           box-shadow: 0px 20px 20px 0 rgba(0, 0, 0, 0.4); 
-  background-color: #f8f7f4;
-  /*background: url("../img/forma-fon.jpg")  no-repeat center;*/    
+  /*background-color: #f8f7f4;*/
+  background: url("../img/forma-fon.jpg")  no-repeat center; 
+  outline: 1px solid red;  
 }
 
 .login-email {
@@ -471,7 +470,8 @@ input:focus {
       -ms-flex-align: center;  
           align-items: center;
   margin: 0px;
-  padding: 0px;   
+  padding: 0px;
+  outline: 1px solid red; 
 }
 
 .button-restore .button {
@@ -495,26 +495,7 @@ input:focus {
   background-image: -webkit-gradient(linear, left bottom, left top, from(var(#e74a35)), to(#f26843));  
   background-image: -webkit-linear-gradient(bottom, #e74a35, #f26843);  
   background-image: -o-linear-gradient(bottom, #e74a35, #f26843);  
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#e74a35), to(#f26843));  
-  background-image: linear-gradient(to top, #e74a35, #f26843);      
-}
-
-.button-restore .button:hover {
-  -webkit-box-shadow: 0px 2px 2px 0 #ac1000;
-          box-shadow: 0px 2px 2px 0 #ac1000;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#e74a35), to(#f26843)), -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.2)), to(rgba(255, 255, 255, 0.2)));
-  background-image: -webkit-linear-gradient(bottom, #e74a35, #f26843), -webkit-linear-gradient(top, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
-  background-image: -o-linear-gradient(bottom, #e74a35, #f26843), -o-linear-gradient(top, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
-  background-image: linear-gradient(to top, #e74a35, #f26843), linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
-}
-
-.button-restore .button:active {
-  -webkit-box-shadow: inset 0px 2px 2px 0 #942718;
-          box-shadow: inset 0px 2px 2px 0 #942718;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#e74a35), to(#f26843)), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.07)), to(rgba(0, 0, 0, 0.07)));
-  background-image: -webkit-linear-gradient(top, #e74a35, #f26843), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.07));
-  background-image: -o-linear-gradient(top, #e74a35, #f26843), -o-linear-gradient(top, rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.07));
-  background-image: linear-gradient(to bottom, #e74a35, #f26843), linear-gradient(to bottom, rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.07));  
+  background-image: linear-gradient(to top, #e74a35, #f26843;      
 }
 
 .login-password-info {
@@ -530,14 +511,12 @@ input:focus {
   font-size: 13px;
   line-height: 24px;  
   padding: 0px;
-  margin: 0px;
-  margin-bottom: -2px;  
+  margin: 0px;    
   color: #323232;  
   background: none;
   text-align: left;  
   text-decoration: underline;
-  -webkit-text-decoration-color: rgba(50, 50, 50, 0.3);
-          text-decoration-color: rgba(50, 50, 50, 0.3);  
+  text-decoration-color: rgba(50, 50, 50, 0.3);  
 }
 
 .login-password-info .registration {
@@ -550,23 +529,9 @@ input:focus {
   color: #323232;  
   background: none;
   text-decoration: underline;
-  -webkit-text-decoration-color: rgba(50, 50, 50, 0.3);
-          text-decoration-color: rgba(50, 50, 50, 0.3);  
+  text-decoration-color: rgba(50, 50, 50, 0.3);  
   text-align: left;  
 }
-
-.login-password-info .restore:hover,
-.login-password-info .restore:focus,
-.login-password-info .restore:active,
-.login-password-info .registration:hover,
-.login-password-info .registration:focus,
-.login-password-info .registration:active {
-  color: #e84d37;
-  text-decoration: underline;  
-  -webkit-text-decoration-color: rgba(255, 188, 158, 0.3);  
-          text-decoration-color: rgba(255, 188, 158, 0.3);  
-}
-
 
 .site-input:hover .login-form {
   display: block;  
@@ -649,7 +614,7 @@ input:focus {
   width: 540px;
   height: 242px;
   border-radius: 5px;
-  background:#f8f7f4 /*url("../img/f-zakaz.jpg")*/;  
+  background: /*#f8f7f4*/ url("../img/f-zakaz.jpg");  
 }
 
 .your-order table {
@@ -893,6 +858,7 @@ td {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;  
+  outline: 1px solid blue;
   width: 860px;  
 }
 
@@ -958,8 +924,7 @@ fieldset {
 }
 
 .filter-price {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;  
+  box-sizing: border-box;  
   width: 220px;
   color: #ffffff;
   margin-top: 24px;
@@ -1113,10 +1078,7 @@ sort-legend {
   position: relative;
   display: block;
   cursor: pointer;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;  
+  user-select: none;  
   font-size: 16px;
   font-weight: 500;  
   line-height: 1.13;
@@ -1693,11 +1655,7 @@ sort-legend {
 }
 
 .quick-view:active {
-  -webkit-box-shadow: inset 0px 2px 2px 0 #942718;
-          box-shadow: inset 0px 2px 2px 0 #942718;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#e74a35), to(#f26843)), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.07)), to(rgba(0, 0, 0, 0.07)));
-  background-image: -webkit-linear-gradient(top, #e74a35, #f26843), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.07));
-  background-image: -o-linear-gradient(top, #e74a35, #f26843), -o-linear-gradient(top, rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.07));
+  box-shadow: inset 0px 2px 2px 0 #942718;
   background-image: linear-gradient(to bottom, #e74a35, #f26843), linear-gradient(to bottom, rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.07));
   color: #ffffff;  
 }

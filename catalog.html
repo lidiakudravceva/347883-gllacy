@@ -53,7 +53,7 @@
                 <a href="#input">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="19" viewBox="0 0 21 19"><g fill="#000"><path d="M6 14.875L12.917 9.5 6 4.125v2.917H-.042v4.917H6z"/><path d="M18 0H5C3.9 0 3 .9 3 2v2h2V2h13v15H5v-2H3v2c0 1.1.9 2 2 2h13c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2z"/></g></svg>
                 <span class="entrance">Вход</span>                        
-                </a>
+                </a>                
                 <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
                   <p> 
                      <label class="visually-hidden" for="login-email">Электронная почта</label>
@@ -70,7 +70,7 @@
                       <a class="registration" href="#">Новая регистрация.</a>  
                     </p>
                   </div>    
-                </form>              
+                </form>                    
             </div>
             <div class="site-basket2">
                 <p class="visually-hidden">Корзина</p>
@@ -81,7 +81,7 @@
             <section class="your-order">
             <table>
               <tr class="tr1">
-                <td class="del"><span class="visually-hidden">Удалить</span><batton class="your-order-del" type="button"></batton></td>
+                <td class="del"><span class="visually-hidden">Удалить</span><button class="your-order-del" type="button"><img src="img/svg-gllacy/svg-gllacy/cross-small.svg" alt="Удалить"></button></td>
                 <td class="small-img"><img src="img/1-small.jpg" width="33" height="33" alt="Пломбир с апельсиновым джемом">
                 </td>
                 <td class="order-name">Пломбир с апельсиновым джемом</td>
@@ -89,7 +89,7 @@
                 <td class="castom">300 руб.</td>
               </tr>
               <tr class="tr2">
-                <td class="del"><span class="visually-hidden">Удалить</span><batton class="your-order-del" type="button"></batton></td>
+                <td class="del"><button class="your-order-del" type="button"><img src="img/svg-gllacy/svg-gllacy/cross-small.svg" alt="Удалить"></button></td>
                 <td class="small-img"><img src="img/3-small.jpg" width="33" height="33" alt="Клубничный пломбир с присыпкой из белого шоколада">
                 </td>
                 <td class="order-name">Клубничный пломбир с присыпкой из белого шоколада
@@ -125,7 +125,7 @@
         <section class="filters">            
           <h2 class="visually-hidden">Фильтр товаров</h2>
           <form class="filter" method="get" action="https://echo.htmlacademy.ru">
-          <div class="string">    
+          <div class="string1">    
           <div class="sort">
           <p class="sort-legend">Сортировка:</p>              
             <select class="filter-input sort-button" name="sort">
@@ -151,27 +151,27 @@
          
           <fieldset class="fat">
             <legend>Жирность:</legend>
-              <ul class="fat-block">
-                <li class="filter-fat">
-                  <input class="visually-hidden filter-input filter-input-radio" type="radio" name="fat-content" value="zero" id="filter-zero">
-                  <label for="filter-zero">0%</label>
-                </li>
-          <li class="filter-fat">
-            <input class="visually-hidden filter-input filter-input-radio" type="radio" name="fat-content" value="ten" id="filter-ten" checked>
-            <label for="filter-ten">до 10%</label>
-          </li>
-          <li class="filter-fat">
-            <input class="visually-hidden filter-input filter-input-radio" type="radio" name="fat-content" value="thirty" id="filter-thirty">
-            <label for="filter-thirty">до 30%</label>
-          </li>
-          <li class="filter-fat">
-            <input class="visually-hidden filter-input filter-input-radio" type="radio" name="fat-content" value="more-thirty" id="filter-more-thirty">
-            <label for="filter-more-thirty">выше 30%</label>
-          </li>  
-        </ul>
-      </fieldset>
+            <ul class="fat-block">
+              <li class="filter-fat">                  
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="fat-content" value="zero" id="filter-zero">
+                <label for="filter-zero">0%</label>                
+              </li>
+              <li class="filter-fat">                 
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="fat-content" value="ten" id="filter-ten" checked>
+                <label for="filter-ten">до 10%</label>                
+              </li>
+              <li class="filter-fat">                  
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="fat-content" value="thirty" id="filter-thirty">
+                <label for="filter-thirty">до 30%</label>                
+              </li>
+              <li class="filter-fat">                  
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="fat-content" value="more-thirty" id="filter-more-thirty">
+                <label for="filter-more-thirty">выше 30%</label>                
+             </li>  
+          </ul>
+        </fieldset>
       </div>
-      <div class="string">        
+      <div class="string2">        
       <fieldset>
         <legend>Наполнители:</legend>
         <ul class="sweet-supplements">
