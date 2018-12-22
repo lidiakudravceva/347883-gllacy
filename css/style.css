@@ -910,6 +910,7 @@ fieldset {
 }
 
 .sort {
+  position: relative;  
   -webkit-box-sizing: border-box;
           box-sizing: border-box;  
   min-width: 194px;  
@@ -918,7 +919,7 @@ fieldset {
   margin-top: 26px;    
 }
 
-.sort-legend {
+.sort-legend {    
   font-size: 14px;
   font-weight: 500;  
   line-height: 16px;
@@ -929,19 +930,21 @@ fieldset {
   color: #ffffff;   
 }
 
-.sort-button {
+.sort-button { 
+  position: relative;  
   display: block;  
   font-size: 16px;
   font-weight: 500;
   line-height: 1.13;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;  
+          box-sizing: border-box;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;  
   width: 194px;
-  min-height: 37px;  
+  min-height: 37px;    
   color: #ffffff;
-  background:rgba(255, 255, 255, 0.2)  url("../img/svg-gllacy/svg-gllacy/select-arrow.svg") no-repeat;
-  background-position: right;
-  background-size: 9px, 5px;  
+  background-color: rgba(255, 255, 255, 0.2);     
   border: none;  
   padding: 0px;
   margin: 0px;
@@ -951,11 +954,38 @@ fieldset {
   padding-right: 10px;    
 }
 
-.sort-batton img {
+.sort-button + .down-dir {
+  position: absolute;    
+  top: 35px;
+  right: 15px;
   display: block;  
-  width: 11px;
-  height: 14px;   
+  color: #ffffff;  
+  width: 0px;
+  height: 0px;    
+  border-bottom: 11px solid transparent;
+  border-top: 11px solid #ffffff;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;  
 }
+
+.sort-button:hover {
+  color: #323232;  
+}
+
+.sort-button:hover + .down-dir {
+  position: absolute;    
+  top: 35px;
+  right: 15px;
+  display: block;    
+  width: 0px;
+  height: 0px;    
+  border-bottom: 11px solid transparent;
+  border-top: 11px solid #323232;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;   
+}
+
+
 
 .filter-price {
   -webkit-box-sizing: border-box;
@@ -1043,12 +1073,13 @@ fieldset {
   height: 4px;  
   border: 8px solid #ffffff;
   border-radius: 50%;  
-  cursor: pointer;
   background-color: #849d8f;  
 }
 
 .range-toggle:hover {
-  background: #1c4f80;
+  cursor: pointer;  
+  border: 9px solid #ffffff;
+  border-radius: 50%;
 }
 
 .range-toggle-min {
