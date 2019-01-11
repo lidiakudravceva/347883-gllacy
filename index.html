@@ -5,7 +5,7 @@
     <title>HTML Academy: Глейси</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet"> 
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.min.css" rel="stylesheet">	  
+    <link href="css/style.min.css" rel="stylesheet">	 
   </head>
   <body>
     <input class="visually-hidden  toggle-product1" type="radio"
@@ -22,7 +22,7 @@
             <ul class="site-navigation">
               <li class="catalog-nav"><a href="#catalog">Каталог</a>
                 <ul class="catalog-new">
-                  <li class="catalog-item">Новинки</li>
+                  <li><a class="catalog-item" href="#">Новинки</a></li>
                   <li><a href="catalog.html">Сливочное</a></li>
                   <li ><a href="#">Щербеты</a></li>
                   <li><a href="#">Фруктовый лёд</a></li>
@@ -30,7 +30,7 @@
                 </ul>      
               </li>
               <li><a href="#">Доставка и оплата</a></li>
-              <li><a href="#">О Компании</a></li>   
+              <li><a href="#">О Компании</a></li>				
             </ul>
             <div class="site-search">              
                 <a  href="#">                  
@@ -81,9 +81,9 @@
          <div class="container">  
            <section class="slider">
              <div class="slider-controls">
-               <label class="prod1" for="product-1">Первый</label>
-               <label class="prod2" for="product-2">Второй</label>
-               <label class="prod3" for="product-3">Третий</label>
+				 <label class="prod1" for="product-1"><span class="visually-hidden">Первый слайд</span></label>
+				 <label class="prod2" for="product-2"><span class="visually-hidden">Второй слайд</span></label>
+				 <label class="prod3" for="product-3"><span class="visually-hidden">Третий слайд</span></label>
              </div>
              <ul class="slider-list">
                <li class="slider-item slide slide1">
@@ -126,6 +126,7 @@
         <section class="assortment">
           <ul>
             <li class="assortment-card">
+			 <div class="assortment-item">	
               <div class="assortment-imgprice">    
                 <img class="hit" src="img/svg-gllacy/svg-gllacy/hit.svg" width="61" height="61" alt="Хит">
                 <img class="assortment-img" src="img/1.jpg" alt="цитрусовое
@@ -133,38 +134,45 @@
                   <p>310<span class="r">₽</span><span class="kg">/кг</span></p>
               </div>      
               <a class="assortment-title" href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
+			  </div>	 
               <a class="button quick-view" href="#">Быстрый просмотр</a>
             </li>
             <li class="assortment-card">
-              <div class="assortment-imgprice">  
-              <img class="hit" src="img/svg-gllacy/svg-gllacy/hit.svg" width="61" height="61" alt="Хит">
-              <img class="assortment-img" src="img/2.jpg" alt="Сливочно-кофейное с кусочками шоколада"
-               width="267" height="267">
-                  <p>380<span class="r">₽</span><span class="kg" >/кг</span></p>
-              </div>    
-              <a class="assortment-title" href="#">Сливочно-кофейное с кусочками шоколада</a>
-              <a class="button quick-view" href="#">Быстрый просмотр</a>
-            </li>   
-            <li class="assortment-card">
-              <div class="assortment-imgprice">  
-              <img class="hit" src="img/svg-gllacy/svg-gllacy/hit.svg" width="61" height="61" alt="Хит">
-              <img class="assortment-img" src="img/3.jpg" alt="Сливочно-клубничное с присыпкой из белого шоколада"
-               width="267" height="267">
-                  <p>355<span class="r">₽</span><span class="kg">/кг</span></p>
-              </div>    
-              <a class="assortment-title" href="#">Сливочно-клубничное с присыпкой из белого шоколада</a>
-              <a class="button quick-view" href="#">Быстрый просмотр</a>
-            </li>   
-            <li class="assortment-card">
-              <div class="assortment-imgprice">  
+			  <div class="assortment-item">	
+                <div class="assortment-imgprice">  
                 <img class="hit" src="img/svg-gllacy/svg-gllacy/hit.svg" width="61" height="61" alt="Хит">
-                <img class="assortment-img"  src="img/4.jpg" alt="Сливочное крем-брюле с карамельной подливкой"
+                <img class="assortment-img" src="img/2.jpg" alt="Сливочно-кофейное с кусочками шоколада"
+                width="267" height="267">
+                  <p>380<span class="r">₽</span><span class="kg" >/кг</span></p>
+                </div>			  	  
+              <a class="assortment-title" href="#">Сливочно-кофейное с кусочками шоколада</a>
+			  </div>	
+              <a class="button quick-view" href="#">Быстрый просмотр</a>
+            </li>   
+            <li class="assortment-card">
+			  <div class="assortment-item">	
+                <div class="assortment-imgprice">  
+                <img class="hit" src="img/svg-gllacy/svg-gllacy/hit.svg" width="61" height="61" alt="Хит">
+                <img class="assortment-img" src="img/3.jpg" alt="Сливочно-клубничное с присыпкой из белого шоколада"
+                width="267" height="267">
+                  <p>355<span class="r">₽</span><span class="kg">/кг</span></p>
+                </div>    
+                <a class="assortment-title" href="#">Сливочно-клубничное с присыпкой из белого шоколада</a>
+			  </div>	  
+              <a class="button quick-view" href="#">Быстрый просмотр</a>
+            </li>
+			<li class="assortment-card">
+			  <div class="assortment-item">	
+                <div class="assortment-imgprice">  
+                <img class="hit" src="img/svg-gllacy/svg-gllacy/hit.svg" width="61" height="61" alt="Хит">
+                <img class="assortment-img" src="img/4.jpg" alt="Сливочное  крем-брюле с карамельной подливкой"
                 width="267" height="267">
                   <p>415<span class="r">₽</span><span class="kg">/кг</span></p>
-              </div>    
-              <a class="assortment-title" href="#">Сливочное крем-брюле с карамельной подливкой</a>
+                </div>    
+                <a class="assortment-title" href="#">Сливочное крем-брюле с карамельной подливкой</a>
+			  </div>	  
               <a class="button quick-view" href="#">Быстрый просмотр</a>
-            </li>   
+            </li>            
           </ul>    
         </section>
         <section class="advantage">
@@ -213,7 +221,7 @@
               <p class="telefon-zakaz">Для заказов по телефону:</p>
               <p class="telefon-namber">8 812 450-25-25</p>
               <p class="time-work">(с 10 до 20 ежедневно)</p>
-              <a href="#" class="button feedback-b">Форма обратной связи</a> 
+              <a href="writeus.html" class="button feedback-b">Форма обратной связи</a> 
             </div>                
           </section>        
       </main>
@@ -262,8 +270,7 @@
           <button class="modal-close" type="button"><span class="visually-hidden">Закрыть</span></button>   
           <p>
             <label class="visually-hidden" for="name">Ваше имя</label>
-            <input class="popap-name" type="text" name="name" id="name" placeholder="Как вас зовут?">
-            <br>  
+            <input class="popap-name" type="text" name="name" id="name" placeholder="Как вас зовут?">              
             <label class="visually-hidden" for="feedback-email">Электронная почта</label>
             <input class="popap-email" type="email" name="feedback-email" id="feedback-email" placeholder="Ваша почта для ответа">           
           </p>

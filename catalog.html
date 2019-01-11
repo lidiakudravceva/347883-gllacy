@@ -5,7 +5,7 @@
     <title>HTML Academy: Глейси</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet"> 
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.min.css" rel="stylesheet">	 
+    <link href="css/style.min.css" rel="stylesheet">	  
   </head>
   <body class="catalog">    
       <header class="main-header-catalog">
@@ -17,7 +17,7 @@
             <ul class="site-navigation">
               <li><a class="catalog-page">Каталог</a>
                 <ul class="catalog-new">
-                  <li class="catalog-item">Новинки</li>
+				  <li><a class="catalog-item" href="#">Новинки</a></li>
                   <li><a class="current">Сливочное</a></li>
                   <li><a href="#">Щербеты</a></li>
                   <li><a href="#">Фруктовый лёд</a></li>
@@ -25,7 +25,7 @@
                 </ul>      
               </li>
               <li><a href="#">Доставка и оплата</a></li>
-              <li><a href="#">О Компании</a></li>   
+              <li><a href="#">О Компании</a></li>				
             </ul>
             <div class="site-search">              
               <a class="search-lupa" href="#">                  
@@ -38,7 +38,7 @@
               </form>              
             </div>
             <div class="site-input">              
-                <a href="#input">
+                <a class="arrow-input" href="#input">
                   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="19" viewBox="0 0 21 19"><g fill="#000"><path d="M6 14.875L12.917 9.5 6 4.125v2.917H-.042v4.917H6z"/><path d="M18 0H5C3.9 0 3 .9 3 2v2h2V2h13v15H5v-2H3v2c0 1.1.9 2 2 2h13c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2z"/></g></svg>
                   <span class="entrance">Вход</span>                       
                 </a>                
@@ -55,7 +55,7 @@
                     <button class="button" type="submit">Войти</button>  
                     <p class="login-password-info">        
                       <a class="restore" href="#">Забыли пароль?</a>
-                      <a class="registration" href="#">Новая регистрация.</a>  
+                      <a class="registration" href="#">Новая регистрация</a>  
                     </p>
                   </div>    
                 </form>                    
@@ -88,23 +88,21 @@
                   <td class="kollichestvo">1,5 кг х<span> 300 руб.</span></td>
                 <td class="castom">450 руб.</td>
               </tr>    
-            </table>
-                
+            </table>                
               <p class="summa">Итого: 750 руб.</p>
-              <button class="button registration" type="button">Оформить заказ</button>
-                
+              <button class="button registration" type="button">Оформить заказ</button>                
           </section>      
           </div>    
           </nav>           
          </div>          
        </header>
       <main>
-       <div class="container">   
+       <div class="container container-catalog">   
        <div class="breadcrumbs-worktime">   
         <ul class="breadcrumbs">
           <li><a href="index.html">Главная</a></li>
           <li><a href="catalog.html">Каталог</a></li>
-          <li class="breadcrumbs-current">Сливочное</li>
+          <li class="breadcrumbs-current">Сливочное</li>			
         </ul>
          <div class="w-contact">   
            <p class="worktime">С 10 до 20, ежедневно</p>
@@ -123,8 +121,7 @@
               <option value="inexpensive-sort">сначала недорогие</option>
 			  <option value="expensive-sort">сначала дорогие</option>
               <option value="fat-sort">по жирности</option>	
-            </select>
-              <label for="filter-sort" class="down-dir"></label>  
+            </select>               
           </div>              
           <div class="filter-price">
             <div class="price-controls">
@@ -195,7 +192,7 @@
         </section>      
         <section class="assortment assortment-catalog">
           <ul>
-            <li class="assortment-card">
+            <li class="assortment-card">				
               <div class="assortment-imgprice">                
                 <img class="assortment-img" src="img/1.jpg" alt="цитрусовое
                 с апельсиновой начинкой" width="267" height="267">               
